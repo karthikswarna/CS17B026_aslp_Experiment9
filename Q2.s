@@ -1,11 +1,11 @@
 # MIPS program to perform addition of matrices.
-		.data
+	.data
 matA:	.float	1.5, 6.2, 3.2, 7.5, 4.1, 8.4, 9.1, 7.0, 0.0
 matB:	.float	8.65, 8.14, 16.25, 7.32, 5.21, 7.32, 9.21, 4.21, 1.1123
 matC:	.float	0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 
 degree:	.word	3
 
-		.text
+	.text
 main:
 	la $t0, matA
 	la $t1, matB
